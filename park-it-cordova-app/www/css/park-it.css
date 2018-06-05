@@ -1,0 +1,54 @@
+body{
+    font-size: 18pt;
+}
+#navbar{
+    width:100%;
+    padding: 15px 5px;
+    font-size: 20pt;
+    text-align: center;
+    position: fixed; /* to top of screen*/
+    top: 0px;
+    left: 0px;
+    z-index:10;
+}
+#park{
+    float:left;
+}
+#retrieve{
+    float: right;
+}
+button{
+    padding: 5px 10px;
+    margin: 0px 15px;
+    font-size: 14pt;
+}
+#container{
+    position:absolute;/* container will sit beaneath nav bar*/
+    top:60px;
+    left: 0px;
+    width: 100%;
+}
+#instructions{
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 17pt;
+}
+#map{
+    position: relative;
+    height: 320px; /*necessary to display on screen*/
+    width: 90%;
+    margin:15px auto;
+    padding: 0px 10px;
+}
+#directions{
+    position:relative;
+    height: auto;/*will grow as needed*/
+    width:90%;
+    margin: 15px auto;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}

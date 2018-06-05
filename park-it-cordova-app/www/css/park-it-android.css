@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 18pt;
+}
+#navbar{
+    background-color: #2196f3;
+    color: white;
+    box-shadow: 3px 3px gray;
+    width:100%;
+    padding: 15px 5px;
+    font-size: 20pt;
+    text-align: center;
+    position: fixed; /* to top of screen*/
+    top: 0px;
+    left: 0px;
+    z-index:10;
+}
+#park{
+    float:left;
+}
+#retrieve{
+    border: 1px white solid;
+    float: right;
+}
+button{
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 15px;
+    font-size: 14pt;
+}
+#container{
+    position:absolute;/* container will sit beaneath nav bar*/
+    top:60px;
+    left: 0px;
+    width: 100%;
+}
+#instructions{
+    border: 1px black solid;
+    box-shadow: 3px 3px gray;
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 17pt;
+}
+#map{
+    border: 1px black solid;
+    box-shadow: 3px 3px gray;
+    position: relative;
+    height: 320px; /*necessary to display on screen*/
+    width: 90%;
+    margin:15px auto;
+    padding: 0px 10px;
+}
+#directions{
+    border: 1px black solid;
+    box-shadow: 3px 3px gray;
+    position:relative;
+    height: auto;/*will grow as needed*/
+    width:90%;
+    margin: 15px auto;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+
+#gotIt {
+    border: 1px black solid;
+}
